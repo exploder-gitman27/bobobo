@@ -1,6 +1,7 @@
 import java.security.SecureRandom;
 import java.util.Random;
 
+//testファイル
 public class RandomSample4 {
 
     public static void main(String[] args) {
