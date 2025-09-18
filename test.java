@@ -5,7 +5,7 @@ import java.util.Random;
 public class RandomSample4 {
 
     public static void main(String[] args) {
-        float min = Float.MAX_VALUE;
+        float min2 = Float.MAX_VALUE;
         float max = Float.MIN_VALUE;
 
         // Randomクラスを使用
