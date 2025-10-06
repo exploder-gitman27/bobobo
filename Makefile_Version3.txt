@@ -1,0 +1,28 @@
+.PHONY: all build test lint clean
+
+# デフォルトターゲット
+all: build test
+
+# ビルド処理
+build:
+	@echo "Building project..."
+	# ここにビルドコマンドを追加
+	# 例: npm install && npm run build
+
+# テスト実行
+test:
+	@echo "Running tests..."
+	# ここにテストコマンドを追加
+	# 例: npm test
+
+# リンター実行
+lint:
+	@echo "Running linter..."
+	# ここにリンターコマンドを追加
+	# 例: npm run lint
+
+# クリーンアップ
+clean:
+	@echo "Cleaning build artifacts..."
+	# ここにクリーンアップコマンドを追加
+	# 例: rm -rf node_modules/ dist/
